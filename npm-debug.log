@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'broccoli' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'broccoli', null ]
+6 verbose cache add name=undefined spec="broccoli" args=["broccoli",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'broccoli',
+7 verbose parsed url   path: 'broccoli',
+7 verbose parsed url   href: 'broccoli' }
+8 silly lockFile 14400de4-broccoli broccoli
+9 verbose lock broccoli /home/andy/.npm/14400de4-broccoli.lock
+10 silly lockFile 14400de4-broccoli broccoli
+11 silly lockFile 14400de4-broccoli broccoli
+12 verbose addNamed [ 'broccoli', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 8a64ae8b-broccoli broccoli@
+15 verbose lock broccoli@ /home/andy/.npm/8a64ae8b-broccoli.lock
+16 silly addNameRange { name: 'broccoli', range: '*', hasData: false }
+17 verbose request where is /broccoli
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 962ca5096c898cca
+20 verbose url raw /broccoli
+21 verbose url resolving [ 'https://registry.npmjs.org/', './broccoli' ]
+22 verbose url resolved https://registry.npmjs.org/broccoli
+23 verbose request where is https://registry.npmjs.org/broccoli
+24 info trying registry request attempt 1 at 01:31:22
+25 verbose etag "3M495GSVAX58DU6ADDN6UD2KS"
+26 http GET https://registry.npmjs.org/broccoli
+27 http 304 https://registry.npmjs.org/broccoli
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Wed, 25 Mar 2015 08:31:21 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Wed, 25 Mar 2015 08:31:21 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"3M495GSVAX58DU6ADDN6UD2KS"',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-sjc3125-SJC',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1427272281.145900,VS0,VE35',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/broccoli from cache
+30 silly addNameRange number 2 { name: 'broccoli', range: '*', hasData: true }
+31 silly addNameRange versions [ 'broccoli',
+31 silly addNameRange   [ '0.7.1',
+31 silly addNameRange     '0.7.2',
+31 silly addNameRange     '0.8.0',
+31 silly addNameRange     '0.9.0',
+31 silly addNameRange     '0.10.0',
+31 silly addNameRange     '0.11.0',
+31 silly addNameRange     '0.12.0',
+31 silly addNameRange     '0.12.1',
+31 silly addNameRange     '0.12.2',
+31 silly addNameRange     '0.12.3',
+31 silly addNameRange     '0.13.0',
+31 silly addNameRange     '0.13.1',
+31 silly addNameRange     '0.13.2',
+31 silly addNameRange     '0.13.3',
+31 silly addNameRange     '0.13.4',
+31 silly addNameRange     '0.13.5',
+31 silly addNameRange     '0.13.6',
+31 silly addNameRange     '0.14.0',
+31 silly addNameRange     '0.15.0' ] ]
+32 verbose addNamed [ 'broccoli', '0.15.0' ]
+33 verbose addNamed [ '0.15.0', '0.15.0' ]
+34 silly lockFile 1f1d7ada-broccoli-0-15-0 broccoli@0.15.0
+35 verbose lock broccoli@0.15.0 /home/andy/.npm/1f1d7ada-broccoli-0-15-0.lock
+36 silly lockFile fdb021d8-org-broccoli-broccoli-0-15-0-tgz https://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz
+37 verbose lock https://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz /home/andy/.npm/fdb021d8-org-broccoli-broccoli-0-15-0-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz',
+38 verbose addRemoteTarball   '5834723e5f20571f7403fb80a20f555f3fc9d044' ]
+39 info retry fetch attempt 1 at 01:31:22
+40 verbose fetch to= /tmp/npm-4547-J4uiDA_3/registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz
+41 http GET https://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz
+42 http 200 https://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz
+43 silly lockFile fdb021d8-org-broccoli-broccoli-0-15-0-tgz https://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz
+44 silly lockFile fdb021d8-org-broccoli-broccoli-0-15-0-tgz https://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz
+45 silly lockFile 1f1d7ada-broccoli-0-15-0 broccoli@0.15.0
+46 silly lockFile 1f1d7ada-broccoli-0-15-0 broccoli@0.15.0
+47 silly lockFile 8a64ae8b-broccoli broccoli@
+48 silly lockFile 8a64ae8b-broccoli broccoli@
+49 silly resolved [ { name: 'broccoli',
+49 silly resolved     description: 'Fast client-side asset builder',
+49 silly resolved     version: '0.15.0',
+49 silly resolved     author: { name: 'Jo Liss', email: 'joliss42@gmail.com' },
+49 silly resolved     main: 'lib/index.js',
+49 silly resolved     license: 'MIT',
+49 silly resolved     keywords: [ 'builder', 'build', 'frontend', 'browser', 'asset', 'pipeline' ],
+49 silly resolved     repository: { type: 'git', url: 'https://github.com/broccolijs/broccoli' },
+49 silly resolved     homepage: 'https://github.com/broccolijs/broccoli',
+49 silly resolved     dependencies:
+49 silly resolved      { 'broccoli-kitchen-sink-helpers': '^0.2.0',
+49 silly resolved        'broccoli-slow-trees': '^1.0.0',
+49 silly resolved        commander: '^2.0.0',
+49 silly resolved        connect: '^3.2.0',
+49 silly resolved        'copy-dereference': '^1.0.0',
+49 silly resolved        'findup-sync': '^0.1.2',
+49 silly resolved        handlebars: '^2.0.0',
+49 silly resolved        mime: '^1.2.11',
+49 silly resolved        'promise-map-series': '^0.2.1',
+49 silly resolved        'quick-temp': '^0.1.2',
+49 silly resolved        rimraf: '^2.2.8',
+49 silly resolved        rsvp: '^3.0.6',
+49 silly resolved        'tiny-lr': '^0.1.4' },
+49 silly resolved     devDependencies: { jshint: '~2.5.6', tap: '^0.4.8' },
+49 silly resolved     engines: { node: '>= 0.10.0' },
+49 silly resolved     scripts:
+49 silly resolved      { pretest: 'jshint lib test',
+49 silly resolved        test: 'tap --stderr --timeout 2 ./test/*_test.js' },
+49 silly resolved     gitHead: '996ff01e26e9cdaa264d50cb7a6c482de9db523f',
+49 silly resolved     bugs: { url: 'https://github.com/broccolijs/broccoli/issues' },
+49 silly resolved     _id: 'broccoli@0.15.0',
+49 silly resolved     _shasum: '5834723e5f20571f7403fb80a20f555f3fc9d044',
+49 silly resolved     _from: 'broccoli@',
+49 silly resolved     _npmVersion: '1.4.28',
+49 silly resolved     _npmUser: { name: 'joliss', email: 'joliss42@gmail.com' },
+49 silly resolved     maintainers: [ [Object] ],
+49 silly resolved     dist:
+49 silly resolved      { shasum: '5834723e5f20571f7403fb80a20f555f3fc9d044',
+49 silly resolved        tarball: 'http://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz' },
+49 silly resolved     directories: {},
+49 silly resolved     _resolved: 'https://registry.npmjs.org/broccoli/-/broccoli-0.15.0.tgz' } ]
+50 info install broccoli@0.15.0 into /usr/lib
+51 info installOne broccoli@0.15.0
+52 verbose lib/node_modules/broccoli unbuild
+53 verbose tar unpack /home/andy/.npm/broccoli/0.15.0/package.tgz
+54 silly lockFile 8dfe486e-ar-usr-lib-node-modules-broccoli tar:///usr/lib/node_modules/broccoli
+55 verbose lock tar:///usr/lib/node_modules/broccoli /home/andy/.npm/8dfe486e-ar-usr-lib-node-modules-broccoli.lock
+56 silly lockFile 0f47133f--npm-broccoli-0-15-0-package-tgz tar:///home/andy/.npm/broccoli/0.15.0/package.tgz
+57 verbose lock tar:///home/andy/.npm/broccoli/0.15.0/package.tgz /home/andy/.npm/0f47133f--npm-broccoli-0-15-0-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 error Error: EACCES, mkdir '/usr/lib/node_modules/broccoli'
+59 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/broccoli']
+59 error   errno: 3,
+59 error   code: 'EACCES',
+59 error   path: '/usr/lib/node_modules/broccoli',
+59 error   fstream_type: 'Directory',
+59 error   fstream_path: '/usr/lib/node_modules/broccoli',
+59 error   fstream_class: 'DirWriter',
+59 error   fstream_stack:
+59 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+59 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+59 error      'Object.oncomplete (fs.js:108:15)' ] }
+60 error Please try running this command again as root/Administrator.
+61 error System Linux 3.2.0-4-amd64
+62 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "broccoli"
+63 error cwd /home/andy/eui
+64 error node -v v0.10.36
+65 error npm -v 1.4.28
+66 error path /usr/lib/node_modules/broccoli
+67 error fstream_path /usr/lib/node_modules/broccoli
+68 error fstream_type Directory
+69 error fstream_class DirWriter
+70 error code EACCES
+71 error errno 3
+72 error stack Error: EACCES, mkdir '/usr/lib/node_modules/broccoli'
+73 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+73 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+73 error fstream_stack Object.oncomplete (fs.js:108:15)
+74 verbose exit [ 3, true ]
